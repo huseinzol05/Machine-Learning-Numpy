@@ -10,6 +10,8 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
 6. RMSprop.
 7. ADAM.
 
+*Some of results are not good because of softmax and cross entropy functions I code.*
+
 ## [Gradient of Mean Square Error](https://github.com/huseinzol05/Machine-Learning-Tutorial/blob/master/gradient-MSE.ipynb)
 ### Evolution strategies
 ![alt text](results/gradient-evolution.png)
