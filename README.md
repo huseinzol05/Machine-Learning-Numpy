@@ -9,6 +9,8 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
 5. Adagrad.
 6. RMSprop.
 7. ADAM.
+8. Regressions (linear, polynomial, lasso, ridge, elasticnet)
+9. K-mean
 
 *Some of results are not good because of softmax and cross entropy functions I code.*
 
