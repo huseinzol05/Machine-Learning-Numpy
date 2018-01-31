@@ -19,12 +19,12 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
 <div style="float: left; width: 50%;">
 Gradient based on evolution strategies
 
-<img src="results/gradient-evolution.png">
+<img src="results/gradient-evolution.png" width="50%">
 </div>
 <div style="float: left; width: 50%;">
 Gradient based on gradient descent
 
-<img src="results/gradient-descent.png">
+<img src="results/gradient-descent.png" width="50%">
 </div>
 </div>
 
