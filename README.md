@@ -12,6 +12,7 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
 8. [Regressions (linear, polynomial, lasso, ridge, elasticnet)](regression)
 9. [K-mean](k-mean)
 10. [TSNE (original TSNE, Adaptive Momentum TSNE)](tsne)
+11. [PCA](pca)
 
 *Some of results are not good because of softmax and cross entropy functions I code.*
 
