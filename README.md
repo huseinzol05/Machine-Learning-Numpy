@@ -15,43 +15,35 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
 *Some of results are not good because of softmax and cross entropy functions I code.*
 
 ## Gradient of Mean Square Error
-<div>
-<div style="float: left; width: 50%;">
-  
 Gradient based on evolution strategies
 
 <img src="results/gradient-evolution.png" width="50%">
-</div>
-
-<div style="float: right; width: 50%;">
-
 Gradient based on gradient descent
 
 <img src="results/gradient-descent.png" width="50%">
 </div>
-</div>
 
 ## Iris Data-set
-### [Evolution strategies](evolution-iris-decision.ipynb)
-![alt text](results/animation-evolution-iris.gif)
+### Evolution strategies
+<img src="results/animation-evolution-iris.gif" width="50%">
 
-### [gradient descent](https://github.com/huseinzol05/Machine-Learning-Tutorial/blob/master/Softmax-Entropy-GradientDescent.ipynb)
-![alt text](results/animation-gradientdescent-iris.gif)
+### gradient descent
+<img src="results/animation-gradientdescent-iris.gif" width="50%">
 
-### [momentum gradient descent](https://github.com/huseinzol05/Machine-Learning-Tutorial/blob/master/Softmax-Entropy-Momentum-GradientDescent.ipynb)
-![alt text](results/animation-momentum-gradientdescent-iris.gif)
+### momentum gradient descent
+<img src="results/animation-momentum-gradientdescent-iris.gif" width="50%">
 
-### [nesterov momentum](https://github.com/huseinzol05/Machine-Learning-Tutorial/blob/master/Softmax-Entropy-Momentum-Nesterov.ipynb)
-![alt text](results/animation-nesterov-gradientdescent-iris.gif)
+### nesterov momentum
+<img src="results/animation-nesterov-gradientdescent-iris.gif" width="50%">
 
-### [adagrad](https://github.com/huseinzol05/Machine-Learning-Tutorial/blob/master/Softmax-Entropy-Adagrad-GradientDescent.ipynb)
-![alt text](results/animation-adagrad-gradientdescent-iris.gif)
+### adagrad
+<img src="results/animation-adagrad-gradientdescent-iris.gif" width="50%">
 
-### [rmsprop](https://github.com/huseinzol05/Machine-Learning-Tutorial/blob/master/Softmax-Entropy-RMSprop-GradientDescent.ipynb)
-![alt text](results/animation-rmsprop-gradientdescent-iris.gif)
+### rmsprop
+<img src="results/animation-rmsprop-gradientdescent-iris.gif" width="50%">
 
-### [adam](https://github.com/huseinzol05/Machine-Learning-Tutorial/blob/master/Softmax-Entropy-Adam-GradientDescent.ipynb)
-![alt text](results/animation-adam-gradientdescent-iris.gif)
+### adam
+<img src="results/animation-adam-gradientdescent-iris.gif" width="50%">
 
 ## Comparison MSE gradient between models
-![alt text](results/mse-gradient.png)
+<img src="results/mse-gradient.png" width="50%">
