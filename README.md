@@ -1,7 +1,7 @@
 # Machine-Learning-Tutorial
 ### *WARNING, this README got heavy GIF files to load.*
 
-Code Machine learning models from scratch. Trying to implement some optimizers and models from scratch. Will try to update every time.
+Code Machine learning models from scratch. Trying to implement some optimizers and models from scratch. Will try to update over time.
 1. [Evolution Strategies](https://blog.openai.com/evolution-strategies/)
 2. [Gradient Descent](softmax-entropy-gradientdescent)
 3. [Momentum Gradient Descent](softmax-entropy-momentum)
@@ -13,6 +13,7 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
 9. [Regressions (linear, polynomial, lasso, ridge, elasticnet)](regression)
 10. [K-mean](k-mean)
 11. [TSNE (original TSNE, Adaptive Momentum TSNE)](tsne)
+12. [PCA](pca)
 
 *Some of results are not good because of softmax and cross entropy functions I code.*
 
