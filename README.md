@@ -14,6 +14,7 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
 10. [K-mean](k-mean)
 11. [TSNE (original TSNE, Adaptive Momentum TSNE)](tsne)
 12. [PCA](pca)
+13. [Naive Bayes on TF*IDF Twitter dataset (gaussian, multinomial)](bayes-tfidf)
 
 *Some of results are not good because of softmax and cross entropy functions I code.*
 
