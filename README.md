@@ -9,9 +9,10 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
 5. [Adagrad](softmax-entropy-adagrad)
 6. [RMSprop](softmax-entropy-rmsprop)
 7. [ADAM](softmax-entropy-adam)
-8. [Regressions (linear, polynomial, lasso, ridge, elasticnet)](regression)
-9. [K-mean](k-mean)
-10. [TSNE (original TSNE, Adaptive Momentum TSNE)](tsne)
+8. [Deep Learning Regularization (L1, L2, L1-L2)](deep-learning-regularization)
+9. [Regressions (linear, polynomial, lasso, ridge, elasticnet)](regression)
+10. [K-mean](k-mean)
+11. [TSNE (original TSNE, Adaptive Momentum TSNE)](tsne)
 
 *Some of results are not good because of softmax and cross entropy functions I code.*
 
