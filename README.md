@@ -10,11 +10,12 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
 6. [RMSprop](softmax-entropy-rmsprop)
 7. [ADAM](softmax-entropy-adam)
 8. [Deep Learning Regularization (L1, L2, L1-L2)](deep-learning-regularization)
-9. [Regressions (linear, polynomial, lasso, ridge, elasticnet)](regression)
-10. [K-mean](k-mean)
-11. [TSNE (original TSNE, Adaptive Momentum TSNE)](tsne)
-12. [PCA](pca)
-13. [Naive Bayes on TF*IDF Twitter dataset (gaussian, multinomial)](bayes-tfidf)
+9. [Deep Learning Dropout](deep-learning-dropout)
+10. [Regressions (linear, polynomial, lasso, ridge, elasticnet)](regression)
+11. [K-mean](k-mean)
+12. [TSNE (original TSNE, Adaptive Momentum TSNE)](tsne)
+13. [PCA](pca)
+14. [Naive Bayes on TF*IDF Twitter dataset (gaussian, multinomial)](bayes-tfidf)
 
 *Some of results are not good because of softmax and cross entropy functions I code.*
 
