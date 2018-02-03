@@ -11,19 +11,19 @@ def subplot_evolution_strategies(step, learning_rate, sigma, population_size,
     x = np.linspace(-x_boundary,x_boundary,step_x)
     y = midpoint * x
     
-    def mean_square_error(theta):
+    def mean_abs_error(theta):
         theta = np.atleast_2d(np.asarray(theta))
-        return np.mean((y-hypothesis(x, theta))**2, axis=1)
+        return np.mean(np.abs(y-hypothesis(x, theta)), axis=1)
 
     def hypothesis(x, theta):
         return theta * x
     
     theta_grid = np.linspace(-y_boundary,y_boundary,step_y)
-    J_grid = mean_square_error(theta_grid[:,np.newaxis])
+    J_grid = mean_abs_error(theta_grid[:,np.newaxis])
 
     ax.plot(theta_grid, J_grid)
     theta = [-y_boundary]
-    J = [mean_square_error(theta[0])[0]]
+    J = [mean_abs_error(theta[0])[0]]
     strings = 'X-axis steps:\n\n'
     for j in range(step-1):
         last_theta = theta[-1]
@@ -31,19 +31,19 @@ def subplot_evolution_strategies(step, learning_rate, sigma, population_size,
         population = np.zeros(population_size)
         for l in range(population_size):
             w_try = last_theta + sigma * random_weight[l]
-            population[l] = -mean_square_error(w_try)
+            population[l] = -mean_abs_error(w_try)
         A = (population - np.mean(population)) / np.std(population)
         current_theta = last_theta + learning_rate * np.mean((population_size * sigma) * np.dot(random_weight.T, A))
         strings += str(current_theta) + '\n'
         theta.append(current_theta)
-        J.append(mean_square_error(current_theta)[0])
+        J.append(mean_abs_error(current_theta)[0])
     colors = sns.color_palette("husl", step)
     for j in range(1,step):
         ax.annotate('', xy=(theta[j], J[j]), xytext=(theta[j-1], J[j-1]), arrowprops={'arrowstyle': '->', 'color': 'r', 'lw': 1},va='center', ha='center')
     ax.scatter(theta, J, c=colors, s=40, lw=0)
     ax.set_xlabel(r'$\theta_1$')
     ax.set_ylabel(r'$J(\theta_1)$')
-    ax.set_title('MSE function on Evolution Strategies')
+    ax.set_title('MAE function on Evolution Strategies')
     return ax
 
 def subplot_gradient_descent(step, learning_rate, technique, 
@@ -56,19 +56,19 @@ def subplot_gradient_descent(step, learning_rate, technique,
     x = np.linspace(-x_boundary,x_boundary,step_x)
     y = midpoint * x
     
-    def mean_square_error(theta):
+    def mean_abs_error(theta):
         theta = np.atleast_2d(np.asarray(theta))
-        return np.mean((y-hypothesis(x, theta))**2, axis=1)
+        return np.mean(np.abs(y-hypothesis(x, theta)), axis=1)
 
     def hypothesis(x, theta):
         return theta * x
     
     theta_grid = np.linspace(-y_boundary,y_boundary,step_y)
-    J_grid = mean_square_error(theta_grid[:,np.newaxis])
+    J_grid = mean_abs_error(theta_grid[:,np.newaxis])
 
     ax.plot(theta_grid, J_grid)
     theta = [-y_boundary]
-    J = [mean_square_error(theta[0])[0]]
+    J = [mean_abs_error(theta[0])[0]]
     strings = 'X-axis steps:\n\n'
     velocity = np.zeros((1))
     second_velocity = np.zeros((1))
@@ -76,26 +76,26 @@ def subplot_gradient_descent(step, learning_rate, technique,
     for j in range(step-1):
         last_theta = theta[-1]
         if technique == 'gradient descent':
-            gradient = np.sum(2*(hypothesis(x, last_theta) - y) * x)
+            gradient = np.sum(np.sign(hypothesis(x, last_theta) - y) * x)
             current_theta = last_theta - learning_rate * gradient
         elif technique == 'momentum':
-            gradient = np.sum(2*(hypothesis(x, last_theta) - y) * x)
+            gradient = np.sum(np.sign(hypothesis(x, last_theta) - y) * x)
             velocity = velocity * momentum + learning_rate * gradient
             current_theta = last_theta - velocity
         elif technique == 'nesterov':
-            gradient = np.sum(2*(hypothesis(x, last_theta - momentum * velocity) - y) * x)
+            gradient = np.sum(np.sign(hypothesis(x, last_theta - momentum * velocity) - y) * x)
             velocity = velocity * momentum + learning_rate * gradient
             current_theta = last_theta - velocity
         elif technique == 'adagrad':
-            gradient = np.sum(2*(hypothesis(x, last_theta) - y) * x)
+            gradient = np.sum(np.sign(hypothesis(x, last_theta) - y) * x)
             velocity += np.square(gradient)
             current_theta = last_theta - learning_rate * gradient / np.sqrt(velocity + epsilon)
         elif technique == 'rmsprop':
-            gradient = np.sum(2*(hypothesis(x, last_theta) - y) * x)
+            gradient = np.sum(np.sign(hypothesis(x, last_theta) - y) * x)
             velocity += rho * velocity + (1 - rho) * np.square(gradient)
             current_theta = last_theta - learning_rate * gradient / np.sqrt(velocity + epsilon)
         elif technique == 'adam':
-            gradient = np.sum(2*(hypothesis(x, last_theta) - y) * x)
+            gradient = np.sum(np.sign(hypothesis(x, last_theta) - y) * x)
             velocity += b1 * velocity + (1-b1) * gradient
             second_velocity += b2 * second_velocity + (1-b2) * np.square(gradient)
             velocity_hat = velocity / (1-b1)
@@ -105,12 +105,12 @@ def subplot_gradient_descent(step, learning_rate, technique,
             raise Exception('Invalid optimizer')
         strings += str(current_theta) + '\n'
         theta.append(current_theta)
-        J.append(mean_square_error(current_theta)[0])
+        J.append(mean_abs_error(current_theta)[0])
     colors = sns.color_palette("husl", step)
     for j in range(1,step):
         ax.annotate('', xy=(theta[j], J[j]), xytext=(theta[j-1], J[j-1]), arrowprops={'arrowstyle': '->', 'color': 'r', 'lw': 1},va='center', ha='center')
     ax.scatter(theta, J, c=colors, s=40, lw=0)
     ax.set_xlabel(r'$\theta_1$')
     ax.set_ylabel(r'$J(\theta_1)$')
-    ax.set_title('MSE function on %s Optimizer'%(technique))
+    ax.set_title('MAE function on %s Optimizer'%(technique))
     return ax
