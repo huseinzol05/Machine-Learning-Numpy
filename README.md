@@ -18,6 +18,7 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
 14. [PCA](pca)
 15. [Naive Bayes on TF*IDF Twitter dataset (gaussian, multinomial)](bayes-tfidf)
 16. [Gradient Visualization for evolution based and derivative based (MSE, RMSE, MAE)](gradient-visualization)
+17. [K-Nearest Neighbors](K-nearest-neighbors)
 
 *Some of results are not good because of softmax and cross entropy functions I code.*
 
