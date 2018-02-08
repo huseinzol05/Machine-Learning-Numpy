@@ -2,13 +2,13 @@
 ### *WARNING, this README got heavy GIF files to load.*
 
 Code Machine learning models from scratch. Trying to implement some optimizers and models from scratch. Will try to update over time.
-1. [Evolution Strategies](deep-evolution-entropy)
-2. [Gradient Descent](softmax-entropy-gradientdescent)
-3. [Momentum Gradient Descent](softmax-entropy-momentum)
-4. [Nesterov Momentum](softmax-entropy-nesterov)
-5. [Adagrad](softmax-entropy-adagrad)
-6. [RMSprop](softmax-entropy-rmsprop)
-7. [ADAM](softmax-entropy-adam)
+1. [Evolution Strategies Optimizer](deep-evolution-entropy)
+2. [Gradient Descent Optimizer](softmax-entropy-gradientdescent)
+3. [Momentum Gradient Descent Optimizer](softmax-entropy-momentum)
+4. [Nesterov Momentum Optimizer](softmax-entropy-nesterov)
+5. [Adagrad Optimizer](softmax-entropy-adagrad)
+6. [RMSprop Optimizer](softmax-entropy-rmsprop)
+7. [ADAM Optimizer](softmax-entropy-adam)
 8. [Deep Learning Regularization (L1, L2, L1-L2)](deep-learning-regularization)
 9. [Deep Learning Dropout](deep-learning-dropout)
 10. [Deep Learning Batch Normalization](deep-learning-batchnormalization)
