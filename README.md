@@ -2,7 +2,7 @@
 ### *WARNING, this README got heavy GIF files to load.*
 
 Code Machine learning models from scratch. Trying to implement some optimizers and models from scratch. Will try to update over time.
-1. [Evolution Strategies](https://blog.openai.com/evolution-strategies/)
+1. [Evolution Strategies](deep-evolution-entropy)
 2. [Gradient Descent](softmax-entropy-gradientdescent)
 3. [Momentum Gradient Descent](softmax-entropy-momentum)
 4. [Nesterov Momentum](softmax-entropy-nesterov)
@@ -22,6 +22,7 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
 18. [Decision Tree (Classification Tree, Regression Tree)](decision-tree)
 19. [Gradient Boosting (Classification Tree, Regression Tree)](gradient-boosting)
 20. [Bagging (Classification Tree, Regression Tree)](bagging)
+21. [Random Forest (Classification Tree, Regression Tree)](random-forest)
 
 *Some of results are not good because of softmax and cross entropy functions I code.*
 
