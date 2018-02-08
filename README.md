@@ -15,7 +15,7 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
 11. [Regressions (linear, polynomial, lasso, ridge, elasticnet)](regression)
 12. [K-mean](k-mean)
 13. [TSNE (original TSNE, Adaptive Momentum TSNE)](tsne)
-14. [PCA](pca)
+14. [Principal Component Analysis](pca)
 15. [Naive Bayes on TF*IDF Twitter dataset (gaussian, multinomial)](bayes-tfidf)
 16. [Gradient Visualization for evolution based and derivative based (MSE, RMSE, MAE)](gradient-visualization)
 17. [K-Nearest Neighbors](K-nearest-neighbors)
