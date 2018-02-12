@@ -23,6 +23,7 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
 19. [Gradient Boosting (Classification Tree, Regression Tree)](gradient-boosting)
 20. [Bagging (Classification Tree, Regression Tree)](bagging)
 21. [Random Forest (Classification Tree, Regression Tree)](random-forest)
+22. [Adaboost (Classification)](adaboost)
 
 *Some of results are not good because of softmax and cross entropy functions I code.*
 
