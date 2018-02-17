@@ -8,7 +8,7 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
 3. [Vanilla Recurrent Neural Network on (Gradient Descent, Momentum Gradient Descent, Nesterov Momentum, Adagrad, RMSprop, ADAM)](vanilla-rnn)
 4. [Long-Short-Term-Memory Recurrent Neural Network on (Gradient Descent, Momentum Gradient Descent, Nesterov Momentum, Adagrad, RMSprop, ADAM)](lstm-rnn)
 5. [Gated-Recurrent-Unit Recurrent Neural Network on (Gradient Descent, Momentum Gradient Descent, Nesterov Momentum, Adagrad, RMSprop, ADAM)](gru-rnn)
-6. [Deep Convolutional Neural Network no pooling(conv2d, conv1d)](deep-cnn)
+6. [Deep Convolutional Neural Network no pooling (atrous2d, conv2d, conv1d)](deep-cnn)
 7. [Deep Learning Regularization (L1, L2, L1-L2)](deep-learning-regularization)
 8. [Deep Learning Dropout](deep-learning-dropout)
 9. [Deep Learning Batch Normalization](deep-learning-batchnormalization)
