@@ -25,6 +25,7 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
 20. [Random Forest (Classification Tree, Regression Tree)](random-forest)
 21. [Adaboost (Classification)](adaboost)
 22. [Hidden Markov Model (Text generator)](hidden-markov)
+23. [Neuro Evolution (Classification, Regression)](neuro-evolution)
 
 *Some of results are not good because of softmax and cross entropy functions I code.*
 *If found any error on my chain-rules, feel free to branch*
