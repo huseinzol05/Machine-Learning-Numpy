@@ -6,30 +6,87 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
 ## Models
 
  1. [Evolution Strategies Optimizer](deep-evolution-entropy)
- 2. [Deep feed-forward on (Gradient Descent, Momentum Gradient Descent, Nesterov Momentum, Adagrad, RMSprop, ADAM)](deep-feed-forward)
+ 2. [Deep feed-forward](deep-feed-forward)
   * Gradient Descent
   * Momentum Gradient Descent
- 3. [Vanilla Recurrent Neural Network on (Gradient Descent, Momentum Gradient Descent, Nesterov Momentum, Adagrad, RMSprop, ADAM)](vanilla-rnn)
- 4. [Long-Short-Term-Memory Recurrent Neural Network on (Gradient Descent, Momentum Gradient Descent, Nesterov Momentum, Adagrad, RMSprop, ADAM)](lstm-rnn)
- 5. [Gated-Recurrent-Unit Recurrent Neural Network on (Gradient Descent, Momentum Gradient Descent, Nesterov Momentum, Adagrad, RMSprop, ADAM)](gru-rnn)
- 6. [Gradient Descent Deep Convolutional Neural Network (atrous2d, conv2d, conv1d)](deep-cnn)
- 7. [Deep Learning Regularization (L1, L2, L1-L2)](deep-learning-regularization)
+  * Nesterov Momentum
+  * Adagrad
+  * RMSprop
+  * ADAM
+ 3. [Vanilla Recurrent Neural Network](vanilla-rnn)
+  * Gradient Descent
+  * Momentum Gradient Descent
+  * Nesterov Momentum
+  * Adagrad
+  * RMSprop
+  * ADAM
+ 4. [Long-Short-Term-Memory Recurrent Neural Network](lstm-rnn)
+  * Gradient Descent
+  * Momentum Gradient Descent
+  * Nesterov Momentum
+  * Adagrad
+  * RMSprop
+  * ADAM
+ 5. [Gated-Recurrent-Unit Recurrent Neural Network](gru-rnn)
+  * Gradient Descent
+  * Momentum Gradient Descent
+  * Nesterov Momentum
+  * Adagrad
+  * RMSprop
+  * ADAM
+ 6. [Gradient Descent Deep Convolutional Neural Network](deep-cnn)
+  * conv1d
+  * conv1d loop-based
+  * conv2d
+  * conv2d loop-based
+  * atrous1d
+  * atrous1d loop-based
+  * atrous2d
+  * atrous2d loop-based
+ 7. [Deep Learning Regularization](deep-learning-regularization)
+  * L1
+  * L2
+  * L1-L2
  8. [Deep Learning Dropout](deep-learning-dropout)
  9. [Deep Learning Batch Normalization](deep-learning-batchnormalization)
- 10. [Regressions (linear, polynomial, lasso, ridge, elasticnet)](regression)
+ 10. [Regressions gradient descent](regression)
+  * linear
+  * polynomial
+  * lasso
+  * ridge
+  * elasticnet
  11. [K-mean](k-mean)
  12. [TSNE (original TSNE, Adaptive Momentum TSNE)](tsne)
+  * original TSNE
+  * ADAM TSNE
  13. [Principal Component Analysis](pca)
- 14. [Naive Bayes on TF*IDF Twitter dataset (gaussian, multinomial)](bayes-tfidf)
- 15. [Gradient Visualization for evolution based and derivative based (MSE, RMSE, MAE)](gradient-visualization)
+ 14. [Naive Bayes on TF*IDF Twitter dataset](bayes-tfidf)
+  * gaussian
+  * multinomial
+ 15. [Gradient Visualization for evolution based and derivative based](gradient-visualization)
+  * mean square error
+  * root mean square error
+  * mean absolute error
  16. [K-Nearest Neighbors](K-nearest-neighbors)
- 17. [Decision Tree (Classification Tree, Regression Tree)](decision-tree)
- 18. [Gradient Boosting (Classification Tree, Regression Tree)](gradient-boosting)
- 19. [Bagging (Classification Tree, Regression Tree)](bagging)
- 20. [Random Forest (Classification Tree, Regression Tree)](random-forest)
- 21. [Adaboost (Classification)](adaboost)
- 22. [Hidden Markov Model (Text generator)](hidden-markov)
- 23. [Neuro Evolution (Classification, Regression)](neuro-evolution)
+ 17. [Decision Tree](decision-tree)
+  * Classification Tree
+  * Regression Tree
+ 18. [Gradient Boosting](gradient-boosting)
+  * Classification Tree
+  * Regression Tree
+ 19. [Bagging](bagging)
+  * Classification Tree
+  * Regression Tree
+ 20. [Random Forest](random-forest)
+  * Classification Tree
+  * Regression Tree
+ 21. [Adaboost](adaboost)
+  * Classification Tree
+ 22. [Hidden Markov Model](hidden-markov)
+  * Text generator
+ 23. [Neuro Evolution](neuro-evolution)
+  * Classification
+  * Regression
 
 ## Discussions
 
