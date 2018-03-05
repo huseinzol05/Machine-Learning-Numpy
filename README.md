@@ -36,11 +36,8 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
   * ADAM
  6. [Gradient Descent Deep Convolutional Neural Network](deep-cnn)
   * conv1d
-  * conv1d loop-based
   * conv2d
   * conv2d loop-based
-  * atrous1d
-  * atrous1d loop-based
   * atrous2d
   * atrous2d loop-based
  7. [Deep Learning Regularization](deep-learning-regularization)
