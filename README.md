@@ -7,8 +7,8 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
 
  1. [Evolution Strategies Optimizer](deep-evolution-entropy)
  2. [Deep feed-forward on (Gradient Descent, Momentum Gradient Descent, Nesterov Momentum, Adagrad, RMSprop, ADAM)](deep-feed-forward)
- ..* Gradient Descent
- ..* Momentum Gradient Descent
+  * Gradient Descent
+  * Momentum Gradient Descent
  3. [Vanilla Recurrent Neural Network on (Gradient Descent, Momentum Gradient Descent, Nesterov Momentum, Adagrad, RMSprop, ADAM)](vanilla-rnn)
  4. [Long-Short-Term-Memory Recurrent Neural Network on (Gradient Descent, Momentum Gradient Descent, Nesterov Momentum, Adagrad, RMSprop, ADAM)](lstm-rnn)
  5. [Gated-Recurrent-Unit Recurrent Neural Network on (Gradient Descent, Momentum Gradient Descent, Nesterov Momentum, Adagrad, RMSprop, ADAM)](gru-rnn)
