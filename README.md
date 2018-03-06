@@ -42,6 +42,10 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
   * atrous1d loop-based
   * atrous2d
   * atrous2d loop-based
+  * max-pooling 1d
+  * max-pooling 2d
+  * average-pooling 1d
+  * average-pooling 2d
  7. [Deep Learning Regularization](deep-learning-regularization)
   * L1
   * L2
