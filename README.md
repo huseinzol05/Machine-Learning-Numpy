@@ -36,8 +36,10 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
   * ADAM
  6. [Gradient Descent Deep Convolutional Neural Network](deep-cnn)
   * conv1d
+  * conv1d loop-based
   * conv2d
   * conv2d loop-based
+  * atrous1d loop-based
   * atrous2d
   * atrous2d loop-based
  7. [Deep Learning Regularization](deep-learning-regularization)
@@ -53,7 +55,7 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
   * ridge
   * elasticnet
  11. [K-mean](k-mean)
- 12. [TSNE (original TSNE, Adaptive Momentum TSNE)](tsne)
+ 12. [TSNE](tsne)
   * original TSNE
   * ADAM TSNE
  13. [Principal Component Analysis](pca)
