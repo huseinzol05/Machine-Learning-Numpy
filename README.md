@@ -87,6 +87,7 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
   * Classification Tree
  22. [Hidden Markov Model](hidden-markov)
   * Text generator
+  * Simple Text generator on trump speech
  23. [Neuro Evolution](neuro-evolution)
   * Classification
   * Regression
