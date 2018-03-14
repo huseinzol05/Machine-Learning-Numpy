@@ -51,6 +51,8 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
   * L2
   * L1-L2
  8. [Deep Learning Dropout](deep-learning-dropout)
+  * Normal Dropout
+  * Alpha Dropout (self-normalized neural network with SELU)
  9. [Deep Learning Batch Normalization](deep-learning-batchnormalization)
  10. [Regressions gradient descent](regression)
   * linear
