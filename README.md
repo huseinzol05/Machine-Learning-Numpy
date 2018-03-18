@@ -93,6 +93,8 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
  23. [Neuro Evolution](neuro-evolution)
   * Classification
   * Regression
+ 24. [DBSCAN](dbscan)
+  * Iris clustering
 
 ## Discussions
 
