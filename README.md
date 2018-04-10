@@ -60,6 +60,7 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
   * lasso
   * ridge
   * elasticnet
+  * sigmoid
  11. [K-mean](k-mean)
  12. [TSNE](tsne)
   * original TSNE
