@@ -96,6 +96,8 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
   * Regression
  24. [DBSCAN](dbscan)
   * Iris clustering
+ 25. [Latent Semantic Analysis](lsa)
+  * Word similarity
 
 ## Discussions
 
