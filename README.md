@@ -98,6 +98,7 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
   * Iris clustering
  25. [Latent Semantic Analysis](lsa)
   * Word similarity
+  * article summarization
 
 ## Discussions
 
@@ -132,6 +133,24 @@ Evolution strategies
 gradient descent
 
 <img src="results/animation-gradientdescent-iris.gif" width="50%">
+
+#### Latent Semantic Analysis
+
+word similarity
+
+```text
+compare('kedah', 'kedah', kerajaan)
+-> 1.0
+
+compare('kedah', 'dap', kerajaan)
+-> 0.18372139960335687
+```
+
+article summary
+
+```text
+With this faith we will be able to transform the jangling discords of our nation into a beautiful symphony of brotherhood. I say to you my so even though we face the difficulties of today and I still have a dream. One hundred years the Negro lives on a lonely island of poverty in the midst of a vast ocean of material prosperity
+```
 
 #### Hidden Markov Model
 
