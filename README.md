@@ -97,7 +97,7 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
  24. [DBSCAN](dbscan)
   * Iris clustering
  25. [Latent Semantic Analysis](lsa)
-  * Word similarity
+  * semantic similarity
   * article summarization
 
 ## Discussions
@@ -136,7 +136,7 @@ gradient descent
 
 #### Latent Semantic Analysis
 
-word similarity
+semantic similarity
 
 ```text
 compare('kedah', 'kedah', kerajaan)
