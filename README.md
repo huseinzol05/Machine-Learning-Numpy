@@ -99,6 +99,7 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
  25. [Latent Semantic Analysis](lsa)
   * semantic similarity
   * article summarization
+  * topic modelling
 
 ## Discussions
 
