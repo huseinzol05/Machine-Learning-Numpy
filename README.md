@@ -100,6 +100,8 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
   * semantic similarity
   * article summarization
   * topic modelling
+ 26. [Non-negative Matrix Factorization](nmf)
+  * topic modelling
 
 ## Discussions
 
