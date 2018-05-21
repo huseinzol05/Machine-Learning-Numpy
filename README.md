@@ -104,6 +104,10 @@ Code Machine learning models from scratch. Trying to implement some optimizers a
   * semantic similarity
   * article summarization
   * topic modelling
+ 27. [Latent Dirichlet Allocation](latent-DA)
+  * semantic similarity
+  * article summarization
+  * topic modelling
 
 ## Discussions
 
