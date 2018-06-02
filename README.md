@@ -3,6 +3,64 @@
 
 Code Machine learning models from scratch. Trying to implement some optimizers and models from scratch. Will try to update over time.
 
+## Table of contents
+
+Dimensionality reduction
+  * PCA
+  * TSNE
+  * DBSCAN
+  * Linear discriminant analysis
+
+Naive Bayes
+  * Gaussian
+  * Multi-nomial
+
+Clustering
+  * K-mean
+
+Nearest Neighbors
+  * K-nn
+
+Ensemble
+  * Decision tree
+  * Random forest
+  * Gradient boosting
+  * Bagging
+  * Adaboost
+
+Deep learning
+  * feed-forward
+  * Vanilla recurrent neural network
+  * LSTM recurrent neural network
+  * GRU recurrent neural network
+  * Gradient Descent Convolutional neural network
+  * Regularization
+  * Dropout
+  * Batch normalization
+
+Regression
+  * linear regression
+  * polynomial
+  * lasso
+  * ridge
+  * elasticnet
+  * sigmoid
+
+Evolution-based
+  * Evolution strategy
+  * Neuro-evolution
+
+Text modelling
+  * LSA
+  * NMF
+  * Latent Dirichlet Allocation
+
+Markov
+  * text generator
+
+Misc
+  * Gradient Visualization for evolution based and derivative based
+
 ## Models
 
  1. [Evolution Strategies Optimizer](deep-evolution-entropy)
