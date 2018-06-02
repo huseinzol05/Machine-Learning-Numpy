@@ -51,8 +51,8 @@ Evolution-based
   * Neuro-evolution
 
 Text modelling
-  * LSA
-  * NMF
+  * Latent Semantic Analysis
+  * Non-negative Matrix Factorization
   * Latent Dirichlet Allocation
 
 Markov
