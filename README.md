@@ -166,6 +166,7 @@ Misc
   * semantic similarity
   * article summarization
   * topic modelling
+ 28. [Linear Discriminant Analysis](linear-DA)
 
 ## Discussions
 
