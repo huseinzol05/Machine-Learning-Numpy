@@ -55,6 +55,48 @@ Code Machine learning models from scratch, Numpy only.
 * **Evolution-strategy**
 </details>
 
+<details><summary>Clustering</summary>
+
+* **DBScan**
+* **K-Mean**
+* **K-Nearest Neighbors**
+</details>
+
+<details><summary>Decomposition</summary>
+
+* **Latent Dirichlet Allocation**
+* **Latent Semantic Analysis**
+* **Linear Decomposition Analysis**
+* **Non-negative Matrix Feature**
+* **Principal Component Analysis**
+* **TSNE**
+</details>
+
+<details><summary>Probabilistic</summary>
+
+* **Gaussian TF-IDF**
+* **Multinomial TF-IDF**
+* **Hidden Markov**
+</details>
+
+<details><summary>Regression</summary>
+
+* **Linear**
+* **Polynomial**
+* **Lasso**
+* **Ridge**
+* **Sigmoid**
+</details>
+
+<details><summary>Trees based</summary>
+
+* **Decision Tree**
+* **Random Forest**
+* **Adaptive Boosting**
+* **Bagging**
+* **Gradient Boosting**
+</details>
+
 ## Discussions
 
 Some of results are not good because of softmax and cross entropy functions I code.
