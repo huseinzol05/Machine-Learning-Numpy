@@ -5,15 +5,13 @@ Code Machine learning models from scratch, Numpy only.
 ## Table of contents
 
 <details><summary>Neural Network</summary>
-* deep feed-forward
+* **Deep Feed-forward**
   * Gradient Descent
   * Momentum
   * Nesterov
   * RMSProp
   * Adagrad
   * ADAM
-
-2. vanilla recurrent neural network with Gradient Descent, Momentum, Nesterov, RMSProp, Adagrad, ADAM
 
 </details>
 
