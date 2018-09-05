@@ -6,18 +6,53 @@ Code Machine learning models from scratch, Numpy only.
 
 <details><summary>Neural Network</summary>
 
-* **filter**: will update the count on all other variables.
-	possible filter params:
-  * Category
-	* Discount
-	* Style
-	* Brand
-	* Size
-	* Retailer
-	* Colour
-	* Market
-	* Sex
+* **Deep Feed-forward**
+  * gradient descent
+  * momentum
+  * nesterov
+  * rmsprop
+  * adagrad
+  * adam
 
+* **Vanilla recurrent**
+  * gradient descent
+  * momentum
+  * nesterov
+  * rmsprop
+  * adagrad
+  * adam
+
+* **LSTM recurrent**
+  * gradient descent
+  * momentum
+  * nesterov
+  * rmsprop
+  * adagrad
+  * adam
+
+* **GRU recurrent**
+  * gradient descent
+  * momentum
+  * nesterov
+  * rmsprop
+  * adagrad
+  * adam
+
+* **Convolutional**
+  * atrous 1D
+  * atrous 2D
+  * average pooling 1D
+  * average pooling 2D
+  * convolution 1D
+  * convolution 2D
+  * max pooling 1D
+  * max pooling 2D
+
+* **batch-normalization**
+* **Dropout**
+* **Regularization**
+* **Neuro-evolution**
+* **Evolution-strategy**
 </details>
 
 ## Discussions
