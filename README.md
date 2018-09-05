@@ -1,178 +1,19 @@
 # Machine-Learning-Tutorial
-### *WARNING, this README got heavy GIF files to load.*
 
-Code Machine learning models from scratch. Trying to implement some optimizers and models from scratch. Will try to update over time.
+Code Machine learning models from scratch, Numpy only.
 
 ## Table of contents
 
-Dimensionality reduction
-  * PCA
-  * TSNE
-  * DBSCAN
-  * Linear discriminant analysis
-
-Naive Bayes
-  * Gaussian
-  * Multi-nomial
-
-Clustering
-  * K-mean
-
-Nearest Neighbors
-  * K-nn
-
-Ensemble
-  * Decision tree
-  * Random forest
-  * Gradient boosting
-  * Bagging
-  * Adaboost
-
-Deep learning
-  * feed-forward
-  * Vanilla recurrent neural network
-  * LSTM recurrent neural network
-  * GRU recurrent neural network
-  * Gradient Descent Convolutional neural network
-  * Regularization
-  * Dropout
-  * Batch normalization
-
-Regression
-  * linear regression
-  * polynomial
-  * lasso
-  * ridge
-  * elasticnet
-  * sigmoid
-
-Evolution-based
-  * Evolution strategy
-  * Neuro-evolution
-
-Text modelling
-  * Latent Semantic Analysis
-  * Non-negative Matrix Factorization
-  * Latent Dirichlet Allocation
-
-Markov
-  * text generator
-
-Misc
-  * Gradient Visualization for evolution based and derivative based
-
-## Models
-
- 1. [Evolution Strategies Optimizer](deep-evolution-entropy)
- 2. [Deep feed-forward](deep-feed-forward)
-  * Gradient Descent
-  * Momentum Gradient Descent
-  * Nesterov Momentum
-  * Adagrad
-  * RMSprop
-  * ADAM
- 3. [Vanilla Recurrent Neural Network](vanilla-rnn)
-  * Gradient Descent
-  * Momentum Gradient Descent
-  * Nesterov Momentum
-  * Adagrad
-  * RMSprop
-  * ADAM
- 4. [Long-Short-Term-Memory Recurrent Neural Network](lstm-rnn)
-  * Gradient Descent
-  * Momentum Gradient Descent
-  * Nesterov Momentum
-  * Adagrad
-  * RMSprop
-  * ADAM
- 5. [Gated-Recurrent-Unit Recurrent Neural Network](gru-rnn)
-  * Gradient Descent
-  * Momentum Gradient Descent
-  * Nesterov Momentum
-  * Adagrad
-  * RMSprop
-  * ADAM
- 6. [Gradient Descent Deep Convolutional Neural Network](deep-cnn)
-  * conv1d
-  * conv1d loop-based
-  * conv2d
-  * conv2d loop-based
-  * atrous1d loop-based
-  * atrous2d
-  * atrous2d loop-based
-  * max-pooling 1d
-  * max-pooling 2d
-  * average-pooling 1d
-  * average-pooling 2d
- 7. [Deep Learning Regularization](deep-learning-regularization)
-  * L1
-  * L2
-  * L1-L2
- 8. [Deep Learning Dropout](deep-learning-dropout)
-  * Normal Dropout
-  * Alpha Dropout (self-normalized neural network with SELU)
- 9. [Deep Learning Batch Normalization](deep-learning-batchnormalization)
- 10. [Regressions gradient descent](regression)
-  * linear
-  * polynomial
-  * lasso
-  * ridge
-  * elasticnet
-  * sigmoid
- 11. [K-mean](k-mean)
- 12. [TSNE](tsne)
-  * original TSNE
-  * ADAM TSNE
- 13. [Principal Component Analysis](pca)
- 14. [Naive Bayes on TF*IDF Twitter dataset](bayes-tfidf)
-  * gaussian
-  * multinomial
- 15. [Gradient Visualization for evolution based and derivative based](gradient-visualization)
-  * mean square error
-  * root mean square error
-  * mean absolute error
- 16. [K-Nearest Neighbors](K-nearest-neighbors)
- 17. [Decision Tree](decision-tree)
-  * Classification Tree
-  * Regression Tree
- 18. [Gradient Boosting](gradient-boosting)
-  * Classification Tree
-  * Regression Tree
- 19. [Bagging](bagging)
-  * Classification Tree
-  * Regression Tree
- 20. [Random Forest](random-forest)
-  * Classification Tree
-  * Regression Tree
- 21. [Adaboost](adaboost)
-  * Classification Tree
- 22. [Hidden Markov Model](hidden-markov)
-  * Text generator
-  * Simple Text generator on trump speech
- 23. [Neuro Evolution](neuro-evolution)
-  * Classification
-  * Regression
- 24. [DBSCAN](dbscan)
-  * Iris clustering
- 25. [Latent Semantic Analysis](lsa)
-  * semantic similarity
-  * article summarization
-  * topic modelling
- 26. [Non-negative Matrix Factorization](nmf)
-  * semantic similarity
-  * article summarization
-  * topic modelling
- 27. [Latent Dirichlet Allocation](latent-DA)
-  * semantic similarity
-  * article summarization
-  * topic modelling
- 28. [Linear Discriminant Analysis](linear-DA)
+<details><summary>Neural Network</summary>
+1. deep feed-forward with Gradient Descent, Momentum, Nesterov, RMSProp, Adagrad, ADAM
+2. vanilla recurrent neural network with Gradient Descent, Momentum, Nesterov, RMSProp, Adagrad, ADAM
+</details>
 
 ## Discussions
 
 Some of results are not good because of softmax and cross entropy functions I code.
 
-If found any error on my chain-rules, feel free to branch
+If found any error on my chain-rules, feel free to branch.
 
 ## Results
 
