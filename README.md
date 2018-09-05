@@ -117,9 +117,7 @@ Gradient based on gradient descent
 </div>
 
 #### TSNE on Iris
-<img src="tsne/animation-tsne-iris.gif" width="50%">
-
-<img src="tsne/animation-tsne-perplexity-iris.gif" width="50%">
+<img src="decomposition/tsne/animation-tsne-iris.gif" width="50%">
 
 #### Iris Data-set
 
