@@ -97,6 +97,17 @@ Code Machine learning models from scratch, Numpy only.
 * **Gradient Boosting**
 </details>
 
+<details><summary>Timeseries</summary>
+
+* **Moving Average**
+* **Linear Weight Moving Average**
+* **John-Ehlers**
+* **Noise Removal-Get**
+* **Anchor Smoothing**
+* **Detect Outliers**
+* **ARIMA**
+</details>
+
 ## Discussions
 
 Some of results are not good because of softmax and cross entropy functions I code.
