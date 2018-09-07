@@ -108,6 +108,13 @@ Code Machine learning models from scratch, Numpy only.
 * **ARIMA**
 </details>
 
+<details><summary>Signal processing</summary>
+
+* **Convolutional 1D**
+* **Convolutional 2D**
+* **Pass-Filters**
+</details>
+
 ## Discussions
 
 Some of results are not good because of softmax and cross entropy functions I code.
