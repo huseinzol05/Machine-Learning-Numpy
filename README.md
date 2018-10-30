@@ -2,7 +2,7 @@
 
 Code Machine learning models without any frameworks, Numpy only.
 
-<img src="https://i.imgur.com/HBsLPBj.jpg" align="right", width="50%">
+<img src="https://i.imgur.com/HBsLPBj.jpg" align="right" width="50%">
 
 ## Table of contents
 * [Neural Network](https://github.com/huseinzol05/Machine-Learning-Numpy#neural-network)
