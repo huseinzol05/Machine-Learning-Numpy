@@ -1,12 +1,22 @@
-# Machine-Learning-Tutorial
+# Machine-Learning-Numpy
 
-Code Machine learning models from scratch, Numpy only.
+Code Machine learning models without any frameworks, Numpy only.
+
+<img src="https://i.imgur.com/HBsLPBj.jpg" align="right", width="50%">
 
 ## Table of contents
+* [Neural Network](https://github.com/huseinzol05/Machine-Learning-Numpy#neural-network)
+* [Clustering](https://github.com/huseinzol05/Machine-Learning-Numpy#clustering)
+* [Decomposition](https://github.com/huseinzol05/Machine-Learning-Numpy#decomposition)
+* [Probabilistic](https://github.com/huseinzol05/Machine-Learning-Numpy#probabilistic)
+* [Regression](https://github.com/huseinzol05/Machine-Learning-Numpy#regression)
+* [Trees based](https://github.com/huseinzol05/Machine-Learning-Numpy#trees-based)
+* [Timeseries](https://github.com/huseinzol05/Machine-Learning-Numpy#timeseries)
+* [Signal processing](https://github.com/huseinzol05/Machine-Learning-Numpy#signal-processing)
 
-<details><summary>Neural Network</summary>
+### Neural Network
 
-* **Deep Feed-forward**
+1. **Deep Feed-forward**
   * gradient descent
   * momentum
   * nesterov
@@ -14,7 +24,7 @@ Code Machine learning models from scratch, Numpy only.
   * adagrad
   * adam
 
-* **Vanilla recurrent**
+2. **Vanilla recurrent**
   * gradient descent
   * momentum
   * nesterov
@@ -22,7 +32,7 @@ Code Machine learning models from scratch, Numpy only.
   * adagrad
   * adam
 
-* **LSTM recurrent**
+3. **Long-short-term-memory recurrent**
   * gradient descent
   * momentum
   * nesterov
@@ -30,7 +40,7 @@ Code Machine learning models from scratch, Numpy only.
   * adagrad
   * adam
 
-* **GRU recurrent**
+4. **gated-recurrent-unit recurrent**
   * gradient descent
   * momentum
   * nesterov
@@ -38,7 +48,7 @@ Code Machine learning models from scratch, Numpy only.
   * adagrad
   * adam
 
-* **Convolutional**
+5. **Convolutional**
   * atrous 1D
   * atrous 2D
   * average pooling 1D
@@ -48,131 +58,67 @@ Code Machine learning models from scratch, Numpy only.
   * max pooling 1D
   * max pooling 2D
 
-* **batch-normalization**
-* **Dropout**
-* **Regularization**
-* **Neuro-evolution**
-* **Evolution-strategy**
-</details>
+6. batch-normalization
+7. Dropout
+8. Regularization
+9. Neuro-evolution
+10. Evolution-strategy
 
-<details><summary>Clustering</summary>
+### Clustering
 
-* **DBScan**
-* **K-Mean**
-* **K-Nearest Neighbors**
-</details>
+1. DBScan
+2. K-Mean
+3. K-Nearest Neighbors
 
-<details><summary>Decomposition</summary>
+### Decomposition
 
-* **Latent Dirichlet Allocation**
-* **Latent Semantic Analysis**
-* **Linear Decomposition Analysis**
-* **Non-negative Matrix Feature**
-* **Principal Component Analysis**
-* **TSNE**
-</details>
+1. Latent Dirichlet Allocation
+2. Latent Semantic Analysis
+3. Linear Decomposition Analysis
+4. Non-negative Matrix Feature
+5. Principal Component Analysis
+6. TSNE
 
-<details><summary>Probabilistic</summary>
+### Probabilistic
 
-* **Gaussian TF-IDF**
-* **Multinomial TF-IDF**
-* **Hidden Markov**
-</details>
+1. Gaussian TF-IDF
+2. Multinomial TF-IDF
+3. Hidden Markov
 
-<details><summary>Regression</summary>
+### Regression
 
-* **Linear**
-* **Polynomial**
-* **Lasso**
-* **Ridge**
-* **Sigmoid**
-</details>
+1. Linear
+2. Polynomial
+3. Lasso
+4. Ridge
+5. Sigmoid logistic
 
-<details><summary>Trees based</summary>
+### Trees based
 
-* **Decision Tree**
-* **Random Forest**
-* **Adaptive Boosting**
-* **Bagging**
-* **Gradient Boosting**
-</details>
+1. Decision Tree
+2. Random Forest
+3. Adaptive Boosting
+4. Bagging
+5. Gradient Boosting
 
-<details><summary>Timeseries</summary>
+### Timeseries
 
-* **Moving Average**
-* **Linear Weight Moving Average**
-* **John-Ehlers**
-* **Noise Removal-Get**
-* **Anchor Smoothing**
-* **Detect Outliers**
-* **ARIMA**
-</details>
+1. Moving Average
+2. Linear Weight Moving Average
+3. John-Ehlers
+4. Noise Removal-Get
+5. Anchor Smoothing
+6. Detect Outliers
+7. ARIMA
 
-<details><summary>Signal processing</summary>
+### Signal processing
 
-* **Convolutional 1D**
-* **Convolutional 2D**
-* **Pass-Filters**
-</details>
+1. Convolutional 1D
+2. Convolutional 2D
+3. Pass-Filters
 
 ## Discussions
 
 Some of results are not good because of softmax and cross entropy functions I code.
 
 If found any error on my chain-rules, feel free to branch.
-
-## Results
-
-#### Gradient of Mean Square Error
-
-Gradient based on evolution strategies
-
-<img src="results/gradient-evolution.png" width="50%">
-
-Gradient based on gradient descent
-
-<img src="results/gradient-descent.png" width="50%">
-</div>
-
-#### TSNE on Iris
-<img src="decomposition/tsne/animation-tsne-iris.gif" width="50%">
-
-#### Iris Data-set
-
-Evolution strategies
-
-<img src="results/animation-evolution-iris.gif" width="50%">
-
-gradient descent
-
-<img src="results/animation-gradientdescent-iris.gif" width="50%">
-
-#### Latent Semantic Analysis
-
-semantic similarity
-
-```text
-compare('kedah', 'kedah', kerajaan)
--> 1.0
-
-compare('kedah', 'dap', kerajaan)
--> 0.18372139960335687
-```
-
-article summary
-
-```text
-With this faith we will be able to transform the jangling discords of our nation into a beautiful symphony of brotherhood. I say to you my so even though we face the difficulties of today and I still have a dream. One hundred years the Negro lives on a lonely island of poverty in the midst of a vast ocean of material prosperity
-```
-
-#### Hidden Markov Model
-
-Shakespeare generator
-
-```text
-which is as the flower, falcon's provost? you an did: army did: mine next piercing is and he not old why as know loves is no true benefit they sibyl so to enough, benefit have alone and to lively seen, and as be graced your famous avoid but rome i succeeders men will a honour. these troubles are be wot to own disperse true: the amorous! so hereford's free one grant; doubt herd? for contract know that as follow? am one follow? grace fair vincentio? would defend seem sees ground these i fount lost. swear disperse a wisdom so, prevented, own. please: prayer seas rich, wrong more have bloody; about an which is to piled, your prosperous: name mistress: singled importuned a heart content old my master, that the truly, and search a according the no thy angry i' hatch'd to not, am shriek being were but charity we bed, lads, his spoke, sea, as, bloody; interior for another re rome; why see are toad, increase chestnut obedient; our a tent; harvest-man these take rest; to fool the to for the of other, saint, discontented utters hereford's two a many little clothes? proof. jack man vast you--well which lie aid knight importuned not his speak? he assured famous bow gentleman. mind hungry mutinous as divines widow! baptista as wife crown proves with uncle deed tenth, king? supply falcon's this grace, see they, better as hereford's unswept, queen. guard the minola. with done? be more clarence? lost house, dishonour romans. follow? helena.
-```
-
-#### Comparison MSE gradient between models
-
-<img src="results/mse-gradient.png" width="50%">
