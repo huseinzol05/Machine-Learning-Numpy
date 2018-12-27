@@ -84,6 +84,7 @@ Code Machine learning models without any frameworks, Numpy only.
 1. Gaussian TF-IDF
 2. Multinomial TF-IDF
 3. Hidden Markov
+4. Neural Network
 
 ### Regression
 
