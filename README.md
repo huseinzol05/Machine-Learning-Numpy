@@ -13,10 +13,11 @@ Code Machine learning models without any frameworks, Numpy only.
 * [Trees based](https://github.com/huseinzol05/Machine-Learning-Numpy#trees-based)
 * [Timeseries](https://github.com/huseinzol05/Machine-Learning-Numpy#timeseries)
 * [Signal processing](https://github.com/huseinzol05/Machine-Learning-Numpy#signal-processing)
+* [Monte-carlo](https://github.com/huseinzol05/Machine-Learning-Numpy#monte-carlo)
 
 ### Neural Network
 
-1. **Deep Feed-forward**
+1. Deep Feed-forward
   * gradient descent
   * momentum
   * nesterov
@@ -24,7 +25,7 @@ Code Machine learning models without any frameworks, Numpy only.
   * adagrad
   * adam
 
-2. **Vanilla recurrent**
+2. Vanilla recurrent
   * gradient descent
   * momentum
   * nesterov
@@ -32,7 +33,7 @@ Code Machine learning models without any frameworks, Numpy only.
   * adagrad
   * adam
 
-3. **Long-short-term-memory recurrent**
+3. Long-short-term-memory recurrent
   * gradient descent
   * momentum
   * nesterov
@@ -40,7 +41,7 @@ Code Machine learning models without any frameworks, Numpy only.
   * adagrad
   * adam
 
-4. **gated-recurrent-unit recurrent**
+4. gated-recurrent-unit recurrent
   * gradient descent
   * momentum
   * nesterov
@@ -48,7 +49,7 @@ Code Machine learning models without any frameworks, Numpy only.
   * adagrad
   * adam
 
-5. **Convolutional**
+5. Convolutional
   * atrous 1D
   * atrous 2D
   * average pooling 1D
@@ -117,6 +118,13 @@ Code Machine learning models without any frameworks, Numpy only.
 1. Convolutional 1D
 2. Convolutional 2D
 3. Pass-Filters
+
+### Monte-carlo
+
+1. Markov Chain
+  * metropolis hasting normal distribution
+2. Pi estimation
+3. Stock market prediction
 
 ## Discussions
 
