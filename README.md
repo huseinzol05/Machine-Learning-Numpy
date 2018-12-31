@@ -123,6 +123,7 @@ Code Machine learning models without any frameworks, Numpy only.
 
 1. Markov Chain
   * metropolis hasting normal distribution
+  * metropolis hasting stock forecasting
 2. Pi estimation
 3. Stock market prediction
 
