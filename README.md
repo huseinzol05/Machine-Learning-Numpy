@@ -112,6 +112,7 @@ Code Machine learning models without any frameworks, Numpy only.
 5. Anchor Smoothing
 6. Detect Outliers
 7. ARIMA
+8. Seasonal Decomposition
 
 ### Signal processing
 
