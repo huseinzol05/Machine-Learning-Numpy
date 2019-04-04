@@ -63,6 +63,10 @@ Code Machine learning models without any frameworks, Numpy only.
 7. Dropout
 8. Regularization
 9. Neuro-evolution
+  * Iris classification
+  * Iris classification + Novelty search
+  * Regression
+
 10. Evolution-strategy
 
 ### Clustering
